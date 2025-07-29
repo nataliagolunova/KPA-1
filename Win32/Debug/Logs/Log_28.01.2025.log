@@ -1,0 +1,1093 @@
+[28.01.2025 08:59:36.472][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 08:59:36.554][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 08:59:36.621][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 08:59:36.687][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 08:59:36.768][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 08:59:36.842][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 08:59:36.919][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 08:59:37.228][success][COM1]:Порт открыт!
+[28.01.2025 08:59:37.466][success][COM3]:Порт открыт!
+[28.01.2025 08:59:37.553][success][COM5]:Порт открыт!
+[28.01.2025 08:59:38.234][success][COM1]:Опрос КПА
+[28.01.2025 08:59:38.304][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 08:59:38.304][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 08:59:38.305][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 08:59:38.350][success][COM1]:Порт закрыт!
+[28.01.2025 08:59:38.471][success][COM3]:Опрос КПА
+[28.01.2025 08:59:38.532][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 08:59:38.532][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 08:59:38.532][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 08:59:38.554][success][COM5]:Опрос КПА
+[28.01.2025 08:59:38.717][success][COM3]:Порт закрыт!
+[28.01.2025 08:59:38.719][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:51:29","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 08:59:38.719][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:51:29","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 08:59:38.719][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:51:29","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 08:59:38.727][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:51:29","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 08:59:39.769][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 08:59:39.774][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:39.779][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:39.787][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 08:59:40.834][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 08:59:40.840][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:40.846][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:40.853][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 08:59:41.886][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 08:59:41.895][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:41.902][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 08:59:41.910][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:07:53.805][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:07:53.878][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:07:53.943][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:07:54.024][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:07:54.100][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:07:54.183][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:07:54.280][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:07:54.586][success][COM1]:Порт открыт!
+[28.01.2025 09:07:54.825][success][COM3]:Порт открыт!
+[28.01.2025 09:07:54.910][success][COM5]:Порт открыт!
+[28.01.2025 09:07:55.600][success][COM1]:Опрос КПА
+[28.01.2025 09:07:55.665][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:07:55.665][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:07:55.665][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:07:55.716][success][COM1]:Порт закрыт!
+[28.01.2025 09:07:55.839][success][COM3]:Опрос КПА
+[28.01.2025 09:07:55.903][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:07:55.903][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:07:55.903][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:07:55.920][success][COM5]:Опрос КПА
+[28.01.2025 09:07:56.067][success][COM3]:Порт закрыт!
+[28.01.2025 09:07:56.069][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:59:47","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:07:56.069][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:59:47","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:07:56.069][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:59:47","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:07:56.077][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,17:59:47","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:07:57.116][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:07:57.122][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:57.128][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:57.136][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:07:58.182][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:07:58.188][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:58.194][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:58.202][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:07:59.235][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:07:59.243][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:59.250][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:07:59.258][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:08:00.307][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:08:00.314][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:08:00.323][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:08:00.333][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:09:00.299][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:09:00.368][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:09:00.442][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:09:00.513][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:09:00.603][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:09:00.681][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:09:00.763][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:09:01.229][success][COM1]:Порт открыт!
+[28.01.2025 09:09:01.479][success][COM3]:Порт открыт!
+[28.01.2025 09:09:01.547][success][COM5]:Порт открыт!
+[28.01.2025 09:09:02.237][success][COM1]:Опрос КПА
+[28.01.2025 09:09:02.298][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:09:02.298][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:09:02.298][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:09:02.334][success][COM1]:Порт закрыт!
+[28.01.2025 09:09:02.487][success][COM3]:Опрос КПА
+[28.01.2025 09:09:02.550][success][COM5]:Опрос КПА
+[28.01.2025 09:09:02.551][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:09:02.551][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:09:02.551][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:09:02.711][success][COM3]:Порт закрыт!
+[28.01.2025 09:09:02.713][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:00:53","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:09:02.713][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:00:53","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:09:02.713][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:00:53","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:09:02.720][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:00:53","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:09:03.754][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:09:03.759][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:09:03.763][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:09:03.771][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:15.502][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:14:15.585][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:14:15.672][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:14:15.751][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:14:15.838][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:14:15.922][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:14:15.994][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:14:16.328][success][COM1]:Порт открыт!
+[28.01.2025 09:14:16.594][success][COM3]:Порт открыт!
+[28.01.2025 09:14:16.678][success][COM5]:Порт открыт!
+[28.01.2025 09:14:17.340][success][COM1]:Опрос КПА
+[28.01.2025 09:14:17.406][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:14:17.406][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:14:17.406][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:14:17.454][success][COM1]:Порт закрыт!
+[28.01.2025 09:14:17.610][success][COM3]:Опрос КПА
+[28.01.2025 09:14:17.665][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:14:17.665][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:14:17.665][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:14:17.683][success][COM5]:Опрос КПА
+[28.01.2025 09:14:17.817][success][COM3]:Порт закрыт!
+[28.01.2025 09:14:17.820][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:06:08","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:14:17.821][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:06:08","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:14:17.822][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:06:08","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:14:17.831][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:06:08","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:14:18.876][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:18.882][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:18.887][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:18.897][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:19.947][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:19.955][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:19.961][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:19.970][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:21.006][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:21.014][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:21.021][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:21.031][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:22.069][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:22.080][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:22.088][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:22.098][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:23.139][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:23.149][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:23.159][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:23.171][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:24.213][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:24.225][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:24.236][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:24.248][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:25.296][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:25.308][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:25.319][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:25.332][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:26.378][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:26.391][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:26.403][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:26.417][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:27.468][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:27.487][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:27.501][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:27.516][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:28.699][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:28.713][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:28.733][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:28.754][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:29.798][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:29.814][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:29.829][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:29.851][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:30.897][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:30.914][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:30.931][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:30.951][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:32.011][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:32.029][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:32.047][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:32.070][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:33.135][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:33.169][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:33.186][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:33.209][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:34.262][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:34.280][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:34.299][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:34.323][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:35.374][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:35.435][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:35.454][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:35.478][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:14:36.543][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:14:36.588][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:36.608][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:14:36.633][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:32:04.372][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:32:04.459][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:32:04.551][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:32:04.629][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:32:04.710][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:32:04.787][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:32:04.867][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:32:05.168][success][COM1]:Порт открыт!
+[28.01.2025 09:32:05.415][success][COM3]:Порт открыт!
+[28.01.2025 09:32:05.493][success][COM5]:Порт открыт!
+[28.01.2025 09:35:22.095][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:35:22.176][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:35:22.258][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:35:22.337][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:35:22.416][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:35:22.499][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:35:22.579][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:35:22.871][success][COM1]:Порт открыт!
+[28.01.2025 09:35:23.119][success][COM3]:Порт открыт!
+[28.01.2025 09:35:23.206][success][COM5]:Порт открыт!
+[28.01.2025 09:35:23.875][success][COM1]:Опрос КПА
+[28.01.2025 09:35:23.948][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:35:23.948][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:35:23.948][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:35:23.988][success][COM1]:Порт закрыт!
+[28.01.2025 09:35:24.124][success][COM3]:Опрос КПА
+[28.01.2025 09:35:24.183][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:35:24.183][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:35:24.183][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:35:24.317][success][COM3]:Порт закрыт!
+[28.01.2025 09:35:24.336][success][COM5]:Опрос КПА
+[28.01.2025 09:35:24.361][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:27:15","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:35:24.364][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:27:15","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:35:24.364][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:27:15","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:35:24.383][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:24.384][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:27:15","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:35:25.421][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:25.424][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:25.432][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:25.433][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:25.441][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:25.442][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:25.450][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:25.451][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:35:26.486][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:26.488][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:26.500][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:26.501][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:26.511][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:26.511][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:26.522][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:26.523][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:35:27.574][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:27.576][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:27.589][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:27.589][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:27.600][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:27.600][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:27.612][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:27.614][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:35:28.650][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:28.652][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:28.663][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:28.664][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:28.674][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:28.675][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:28.687][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:28.689][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:35:29.736][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:29.738][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:29.751][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:29.751][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:29.763][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:29.763][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:29.777][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:29.779][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:35:30.827][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:30.829][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:35:30.844][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:30.844][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:30.859][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:30.859][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:35:30.872][main][SQL] 0: select STANDID from STAND where STANDNUM = :"5"
+[28.01.2025 09:35:30.873][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:38:30.002][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:38:30.085][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:38:30.171][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:38:30.240][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:38:30.327][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:38:30.412][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:38:30.494][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:38:30.800][success][COM1]:Порт открыт!
+[28.01.2025 09:38:31.061][success][COM3]:Порт открыт!
+[28.01.2025 09:38:31.135][success][COM5]:Порт открыт!
+[28.01.2025 09:45:19.721][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:45:19.829][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:45:19.934][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:45:20.017][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:45:20.102][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:45:20.194][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:45:20.275][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:45:20.601][success][COM1]:Порт открыт!
+[28.01.2025 09:45:20.838][success][COM3]:Порт открыт!
+[28.01.2025 09:45:20.919][success][COM5]:Порт открыт!
+[28.01.2025 09:45:21.606][success][COM1]:Опрос КПА
+[28.01.2025 09:45:21.692][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:45:21.692][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:45:21.692][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:45:21.736][success][COM1]:Порт закрыт!
+[28.01.2025 09:45:21.842][success][COM3]:Опрос КПА
+[28.01.2025 09:45:21.905][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:45:21.905][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:45:21.906][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:45:21.924][success][COM5]:Опрос КПА
+[28.01.2025 09:45:22.066][success][COM3]:Порт закрыт!
+[28.01.2025 09:45:22.068][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:37:13","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:45:22.070][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:37:13","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:45:22.070][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:37:13","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:45:22.089][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:22.090][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:37:13","49564","1",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:45:23.135][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:23.137][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:23.149][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:23.150][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:23.158][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:23.159][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:23.167][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:23.170][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:24.221][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:24.223][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:24.234][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:24.234][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:24.244][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:24.245][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:24.256][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:24.258][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:25.305][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:25.307][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:25.319][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:25.320][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:25.333][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:25.334][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:25.345][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:25.347][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:26.387][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:26.389][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:26.401][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:26.402][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:26.413][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:26.413][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:26.426][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:26.428][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:27.471][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:27.473][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:27.487][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:27.487][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:27.499][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:27.500][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:27.512][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:27.514][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:28.561][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:28.563][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:28.578][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:28.578][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:28.592][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:28.593][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:28.607][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:28.609][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:29.665][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:29.667][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:29.689][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:29.689][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:29.704][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:29.704][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:29.720][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:29.722][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:30.766][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:30.769][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:30.786][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:30.787][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:30.802][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:30.802][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:30.818][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:30.819][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:31.872][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:31.873][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:31.891][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:31.891][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:31.907][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:31.908][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:31.925][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:31.927][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:32.973][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:32.976][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:32.998][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:32.998][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:33.015][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:33.016][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:33.032][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:33.035][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:34.098][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:34.100][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:34.120][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:34.121][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:34.141][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:34.141][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:34.159][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:34.161][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:35.220][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:35.225][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:35.244][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:35.244][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:35.263][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:35.264][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:35.282][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:35.287][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:36.335][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:36.342][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:36.369][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:36.369][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:36.390][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:36.390][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:36.414][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:36.419][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:37.468][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:37.474][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:37.501][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:37.501][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:37.528][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:37.528][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:37.550][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:37.554][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:38.605][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:38.611][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:38.634][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:38.634][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:38.656][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:38.656][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:38.678][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:38.683][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:39.743][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:39.745][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:39.769][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:39.770][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:39.793][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:39.794][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:39.815][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:39.817][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:40.881][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:40.883][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:40.910][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:40.911][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:40.934][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:40.934][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:40.957][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:40.959][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:42.018][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:42.019][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:42.045][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:42.046][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:42.073][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:42.073][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:42.097][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:42.099][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:43.164][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:43.166][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:43.192][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:43.192][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:43.218][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:43.218][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:43.246][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:43.247][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:44.307][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:44.309][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:44.341][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:44.341][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:44.370][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:44.371][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:44.400][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:44.402][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:45.469][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:45.470][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:45.508][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:45.508][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:45.536][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:45.536][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:45.564][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:45.565][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:46.625][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:46.627][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:46.659][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:46.659][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:46.688][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:46.688][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:46.716][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:46.718][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:47.786][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:47.788][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:47.818][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:47.818][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:47.846][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:47.847][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:47.878][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:47.880][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:48.956][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:48.958][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:48.992][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:48.993][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:49.023][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:49.024][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:49.059][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:49.061][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:50.136][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:50.137][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:50.172][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:50.173][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:50.205][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:50.206][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:50.238][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:50.239][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:51.300][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:51.302][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:51.336][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:51.336][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:51.367][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:51.367][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:51.399][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:51.401][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:52.463][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:52.465][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:52.501][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:52.501][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:52.532][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:52.533][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:52.568][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:52.571][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:53.639][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:53.641][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:53.676][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:53.677][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:53.712][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:53.713][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:53.748][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:53.750][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:54.825][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:54.827][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:54.862][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:54.863][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:54.899][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:54.899][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:54.933][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:54.934][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:56.006][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:56.009][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:56.046][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:56.046][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:56.082][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:56.082][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:56.117][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:56.119][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:56.427][main][SQL] 34259074303: select CVE1SETTINGS.enable_script from CVE1SETTINGS where(CVE1SETTINGS.id = :63
+[28.01.2025 09:45:56.435][main][SQL] 02.06: select METERBOARDDICT."VERSION" from METERBOARDDICT, CVE1SETTINGS where (CVE1SETTINGS.boardtypeid = METERBOARDDICT.id) and (CVE1SETTINGS.id = 63
+[28.01.2025 09:45:56.445][main][SQL] ООО "Райт Электроникс": select BOARDMANUFACTRERS.name from BOARDMANUFACTRERS where (BOARDMANUFACTRERS.id = :01
+[28.01.2025 09:45:57.181][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:57.184][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:57.223][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:57.224][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:57.260][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:57.260][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:57.297][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:57.299][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:58.363][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:58.365][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[28.01.2025 09:45:58.401][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:58.402][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:58.439][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:58.439][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[28.01.2025 09:45:58.477][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:58.479][success][COM5]:Плата вставлена и проверка не начата.
+[28.01.2025 09:45:59.534][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:59.536][success][COM5]:Опрос параметров КПА
+[28.01.2025 09:45:59.667][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:59.669][success][COM5]:THRD.BCPRxChar. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[28.01.2025 09:45:59.712][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:59.712][success][COM5]:THRD.ReciveAnswer. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[28.01.2025 09:45:59.752][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:45:59.753][success][COM5]:THRD.ReciveAnswer. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[28.01.2025 09:46:00.802][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:00.805][success][COM5]:Старт проверки
+[28.01.2025 09:46:00.870][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:00.872][success][COM5]:THRD.BCPRxChar. Ответ: OK
+
+[28.01.2025 09:46:22.943][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:22.943][success][COM5]:THRD.ReciveAnswer. Ответ: OK
+
+[28.01.2025 09:46:23.089][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:23.089][success][COM5]:THRD.ReciveAnswer. Ответ: OK
+
+[28.01.2025 09:46:24.172][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:24.174][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:24.215][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:24.216][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:24.258][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:24.259][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:24.301][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:24.303][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:25.386][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:25.389][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:25.434][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:25.434][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:25.475][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:25.476][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:25.518][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:25.520][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:26.596][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:26.599][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:26.645][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:26.645][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:26.688][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:26.689][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:26.732][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:26.734][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:27.809][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:27.812][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:27.859][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:27.859][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:27.903][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:27.903][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:27.953][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:27.955][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:29.027][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:29.029][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:29.075][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:29.076][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:29.126][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:29.126][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:29.171][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:29.173][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:30.260][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:30.262][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:30.308][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:30.309][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:30.354][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:30.354][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:30.402][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:30.404][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:31.489][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:31.491][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:31.538][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:31.539][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:31.587][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:31.587][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:31.635][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:31.637][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:32.719][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:32.721][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:32.770][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:32.771][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:32.817][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:32.817][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:32.865][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:32.867][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:33.949][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:33.951][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:34.000][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:34.000][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:34.050][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:34.051][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:34.099][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:34.101][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:35.184][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:35.186][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:35.238][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:35.238][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:35.287][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:35.288][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:35.342][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:35.344][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:36.420][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:36.423][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:36.474][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:36.474][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:36.524][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:36.524][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:36.576][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:36.578][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:37.666][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:37.668][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:37.719][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:37.720][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:37.773][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:37.773][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:37.824][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:37.825][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:38.911][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:38.913][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:38.964][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:38.964][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:39.015][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:39.015][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:39.069][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:39.070][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:40.157][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:40.160][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:40.214][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:40.214][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:40.269][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:40.269][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:40.321][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:40.323][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:41.411][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:41.413][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:41.466][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:41.467][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:41.523][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:41.523][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:41.575][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:41.577][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:42.666][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:42.668][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:42.722][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:42.723][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:42.776][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:42.777][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:42.834][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:42.836][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:43.923][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:43.926][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:43.980][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:43.981][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:44.039][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:44.039][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:44.094][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:44.096][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:45.193][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:45.194][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:45.250][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:45.250][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:45.308][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:45.308][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:45.369][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:45.370][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:46.463][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:46.464][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:46.520][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:46.520][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:46.581][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:46.581][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:46.642][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:46.643][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:47.733][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:47.735][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:47.801][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:47.801][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:47.860][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:47.860][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:47.921][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:47.924][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:49.021][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:49.022][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:49.082][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:49.083][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:49.144][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:49.144][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:49.203][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:49.204][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:50.301][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:50.303][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:50.365][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:50.365][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:50.426][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:50.426][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:50.491][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:50.493][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:46:51.590][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:51.592][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:46:51.653][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:51.654][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:51.719][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:51.720][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:46:51.781][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:46:51.784][success][COM5]:Плата не прошла проверку.
+[28.01.2025 09:55:40.301][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 09:55:40.383][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 09:55:40.463][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 09:55:40.559][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 09:55:40.657][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 09:55:40.735][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 09:55:40.823][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 09:55:41.114][success][COM1]:Порт открыт!
+[28.01.2025 09:55:41.374][success][COM3]:Порт открыт!
+[28.01.2025 09:55:41.451][success][COM5]:Порт открыт!
+[28.01.2025 09:55:42.125][success][COM1]:Опрос КПА
+[28.01.2025 09:55:42.242][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 09:55:42.242][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:55:42.243][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:55:42.287][success][COM1]:Порт закрыт!
+[28.01.2025 09:55:42.377][success][COM3]:Опрос КПА
+[28.01.2025 09:55:42.464][success][COM5]:Опрос КПА
+[28.01.2025 09:55:42.508][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:47:34","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:55:42.509][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:47:34","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:55:42.509][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:47:34","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:55:42.528][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:55:42.529][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,18:47:34","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 09:55:42.605][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 09:55:42.605][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:55:42.606][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 09:55:42.750][success][COM3]:Порт закрыт!
+[28.01.2025 09:55:43.570][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:55:43.573][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 09:55:43.582][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:55:43.583][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:55:43.591][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:55:43.591][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 09:55:43.598][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 09:55:43.601][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:46.349][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[28.01.2025 10:31:46.444][main]Создание фрейма номер - 0 - успешно!
+[28.01.2025 10:31:46.519][main]Создание фрейма номер - 1 - успешно!
+[28.01.2025 10:31:46.600][main]Создание фрейма номер - 2 - успешно!
+[28.01.2025 10:31:46.685][main]Создание фрейма номер - 3 - успешно!
+[28.01.2025 10:31:46.760][main]Создание фрейма номер - 4 - успешно!
+[28.01.2025 10:31:46.841][main]Создание фрейма номер - 5 - успешно!
+[28.01.2025 10:31:47.141][success][COM1]:Порт открыт!
+[28.01.2025 10:31:47.406][success][COM3]:Порт открыт!
+[28.01.2025 10:31:47.496][success][COM5]:Порт открыт!
+[28.01.2025 10:31:48.156][success][COM1]:Опрос КПА
+[28.01.2025 10:31:48.228][success][COM1]:Данных нет или время ожидания истекло!
+[28.01.2025 10:31:48.228][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 10:31:48.228][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 10:31:48.270][success][COM1]:Порт закрыт!
+[28.01.2025 10:31:48.409][success][COM3]:Опрос КПА
+[28.01.2025 10:31:48.483][success][COM3]:Данных нет или время ожидания истекло!
+[28.01.2025 10:31:48.484][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 10:31:48.484][success][COM3]:THRD.ReciveAnswer. Ответ: 
+[28.01.2025 10:31:48.505][success][COM5]:Опрос КПА
+[28.01.2025 10:31:48.665][success][COM3]:Порт закрыт!
+[28.01.2025 10:31:48.668][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.04","5","15.01.2000,19:23:41","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 10:31:48.668][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,19:23:41","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 10:31:48.670][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,19:23:41","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 10:31:48.689][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:48.689][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.04","5","15.01.2000,19:23:41","49564","7",{"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}}
+
+[28.01.2025 10:31:49.727][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:49.729][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:31:49.741][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:49.741][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:49.755][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:49.755][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:49.764][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:49.767][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:50.791][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:50.793][success][COM5]:GetStatusScript
+[28.01.2025 10:31:50.829][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:50.832][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:50.844][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:50.845][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:50.855][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:50.855][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:51.897][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:51.900][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:31:51.911][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:51.911][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:51.922][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:51.923][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:51.935][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:51.937][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:52.959][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:52.961][success][COM5]:GetStatusScript
+[28.01.2025 10:31:52.997][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:52.999][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:53.013][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:53.014][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:53.026][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:53.026][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:54.073][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:54.075][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:31:54.090][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:54.091][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:54.104][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:54.104][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:54.116][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:54.117][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:55.144][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:55.146][success][COM5]:GetStatusScript
+[28.01.2025 10:31:55.183][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:55.185][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:55.200][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:55.200][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:55.213][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:55.213][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:56.262][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:56.264][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:31:56.280][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:56.280][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:56.295][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:56.295][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:56.309][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:56.311][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:57.340][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:57.342][success][COM5]:GetStatusScript
+[28.01.2025 10:31:57.384][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:57.387][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:57.404][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:57.404][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:57.420][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:57.420][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:58.475][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:58.477][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:31:58.496][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:58.496][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:58.513][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:58.513][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:31:58.529][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:58.531][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:31:59.567][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:59.569][success][COM5]:GetStatusScript
+[28.01.2025 10:31:59.611][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:59.613][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:59.631][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:59.631][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:31:59.647][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:31:59.648][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:32:00.695][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:00.698][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:32:00.717][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:00.718][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:32:00.735][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:00.736][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:32:00.755][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:00.757][success][COM5]:Плата не прошла проверку.
+[28.01.2025 10:32:01.787][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:01.789][success][COM5]:GetStatusScript
+[28.01.2025 10:32:01.832][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:01.834][success][COM5]:THRD.BCPRxChar. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:32:01.854][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:01.854][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:32:01.873][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:01.873][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"7 Сопр.R52 Клапана  ;0 Диапазон настр. от:820 до:1100 Измерено:2982.202;Неверное значен."
+
+[28.01.2025 10:32:02.926][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:02.928][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[28.01.2025 10:32:02.951][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:02.951][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:32:02.973][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:02.973][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[28.01.2025 10:32:02.995][main][SQL] 25: select STANDID from STAND where STANDNUM = :5
+[28.01.2025 10:32:02.997][success][COM5]:Плата не прошла проверку.

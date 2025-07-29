@@ -1,0 +1,301 @@
+[03.02.2025 15:52:46.798][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[03.02.2025 15:52:46.844][main]Создание фрейма номер - 0 - успешно!
+[03.02.2025 15:52:46.867][main]Создание фрейма номер - 1 - успешно!
+[03.02.2025 15:52:46.888][main]Создание фрейма номер - 2 - успешно!
+[03.02.2025 15:52:46.910][main]Создание фрейма номер - 3 - успешно!
+[03.02.2025 15:52:46.932][main]Создание фрейма номер - 4 - успешно!
+[03.02.2025 15:52:46.954][main]Создание фрейма номер - 5 - успешно!
+[03.02.2025 15:53:18.218][main]Старт программы KPA-1: Голунова Наталья Николаевна. Версия ПО: 1.0.0.0.
+[03.02.2025 15:53:18.246][main]Создание фрейма номер - 0 - успешно!
+[03.02.2025 15:53:18.268][main]Создание фрейма номер - 1 - успешно!
+[03.02.2025 15:53:18.290][main]Создание фрейма номер - 2 - успешно!
+[03.02.2025 15:53:18.312][main]Создание фрейма номер - 3 - успешно!
+[03.02.2025 15:53:18.343][main]Создание фрейма номер - 4 - успешно!
+[03.02.2025 15:53:18.363][main]Создание фрейма номер - 5 - успешно!
+[03.02.2025 15:53:18.574][success][COM1]:Порт открыт!
+[03.02.2025 15:53:18.641][success][COM5]:Порт открыт!
+[03.02.2025 15:53:19.577][success][COM1]:Опрос КПА
+[03.02.2025 15:53:19.657][success][COM5]:Опрос КПА
+[03.02.2025 15:53:19.668][success][COM1]:Данных нет или время ожидания истекло!
+[03.02.2025 15:53:19.668][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[03.02.2025 15:53:19.668][success][COM1]:THRD.ReciveAnswer. Ответ: 
+[03.02.2025 15:53:19.685][success][COM5]:THRD.BCPRxChar. Ответ: {"KPA-1","1.05.09","5","01.01.2000,11:48:14","49575","1",{"7F9FFFCFF","1","1","","","","","","0"}}
+
+[03.02.2025 15:53:19.720][success][COM1]:Порт закрыт!
+[03.02.2025 15:53:19.720][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.09","5","01.01.2000,11:48:14","49575","1",{"7F9FFFCFF","1","1","","","","","","0"}}
+
+[03.02.2025 15:53:19.720][success][COM5]:THRD.ReciveAnswer. Ответ: {"KPA-1","1.05.09","5","01.01.2000,11:48:14","49575","1",{"7F9FFFCFF","1","1","","","","","","0"}}
+
+[03.02.2025 15:53:19.737][main][SQL] 25: select STANDID from STAND where STANDNUM = 5
+[03.02.2025 15:53:20.777][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:20.777][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:20.777][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:20.780][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:21.808][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:21.808][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:21.808][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:21.809][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:22.847][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:22.848][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:22.848][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:22.848][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:23.954][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:23.954][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:23.954][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:23.956][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:24.978][main][SQL] 34259074303: select CVE1SETTINGS.enable_script from CVE1SETTINGS where(CVE1SETTINGS.id = 63
+[03.02.2025 15:53:24.984][main][SQL] 02.06: select METERBOARDDICT."VERSION" from METERBOARDDICT, CVE1SETTINGS where (CVE1SETTINGS.boardtypeid = METERBOARDDICT.id) and (CVE1SETTINGS.id = 63
+[03.02.2025 15:53:24.990][main][SQL] ООО "Райт Электроникс": select BOARDMANUFACTRERS.name from BOARDMANUFACTRERS where (BOARDMANUFACTRERS.id = :01
+[03.02.2025 15:53:24.993][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:24.993][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:24.993][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:24.994][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:26.020][success][COM5]:THRD.BCPRxChar. Ответ: "1"
+
+[03.02.2025 15:53:26.021][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:26.022][success][COM5]:THRD.ReciveAnswer. Ответ: 1
+[03.02.2025 15:53:26.022][success][COM5]:Плата вставлена и проверка не начата.
+[03.02.2025 15:53:27.030][success][COM5]:Опрос параметров КПА
+[03.02.2025 15:53:27.086][success][COM5]:THRD.BCPRxChar. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[03.02.2025 15:53:27.087][success][COM5]:THRD.ReciveAnswer. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[03.02.2025 15:53:27.087][success][COM5]:THRD.ReciveAnswer. Ответ: {"7F9FFFCFF","1","1","NUMBER_BOARD2=Q100;01;2206;0024;01.02;92","HW_VERSION=0206","","","","0"}
+
+[03.02.2025 15:53:28.095][success][COM5]:Старт проверки
+[03.02.2025 15:53:28.121][success][COM5]:THRD.BCPRxChar. Ответ: OK
+
+[03.02.2025 15:53:28.122][success][COM5]:THRD.ReciveAnswer. Ответ: OK
+
+[03.02.2025 15:53:28.122][success][COM5]:THRD.ReciveAnswer. Ответ: OK
+
+[03.02.2025 15:53:28.123][success][COM5]:Старт проверки подтвержден
+[03.02.2025 15:53:29.148][success][COM5]:THRD.BCPRxChar. Ответ: "2"
+
+[03.02.2025 15:53:29.148][success][COM5]:THRD.ReciveAnswer. Ответ: 2
+[03.02.2025 15:53:29.148][success][COM5]:THRD.ReciveAnswer. Ответ: 2
+[03.02.2025 15:53:29.150][success][COM5]:Скрипт без оператора.
+[03.02.2025 15:53:30.180][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:30.180][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:30.180][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:30.182][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:31.185][success][COM5]:GetStatusScript
+[03.02.2025 15:53:31.212][success][COM5]:THRD.BCPRxChar. Ответ: ";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.212][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.212][success][COM5]:THRD.ReciveAnswer. Ответ: ";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.213][success][COM5]:";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.214][success][COM5]:НЕ ГОДЕН
+[03.02.2025 15:53:31.240][main][SQL] 0: select ID from COMMENTS where COMMENT = ";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.242][main][SQL] 16813: Insert INTO COMMENTS(COMMENT) values COMMENT = ";;"1 КЗ Бат.Телем.     ;0 Диапазон настр. от:100 до:1200 Измерено:0.045;Неверное значен."
+
+[03.02.2025 15:53:31.250][main][SQL] 172247: select meterboards.id from meterboards, meterboarddict where meterboarddict.id = meterboards.boardtypeid and meterboards.serial = Q100;01;2206;0024;01.02;92 and meterboarddict."VERSION" = 02.06
+[03.02.2025 15:53:31.252][main][SQL] 37: select METEREVENTTYPEID from CVE1SETTINGS where ID = 63
+[03.02.2025 15:53:31.258][main][SQL] 418810: Insert INTO BOARDEVENTS(BRDEVENTTYPEID, BRDEVENTDATE, BOARDID, USERID, STANDID, EVENTSTATE, PRESETID, COMMENTID) values :pLastEvent = 37, :pDTNow = 03.02.2025, :pMeterBoardsID = 172247, :pUserID = 31, :pStandID = 0, :pStatusFlag = 1, :pPresetID = 63, :pCommentID = 16813
+[03.02.2025 15:53:31.264][main][SQL] 172247: select meterboards.id from meterboards, meterboarddict where meterboarddict.id = meterboards.boardtypeid and meterboards.serial = Q100;01;2206;0024;01.02;92 and meterboarddict."VERSION" = 02.06
+[03.02.2025 15:53:31.268][main][SQL] update METERBOARDS set STATE_CURR_ID = 1 LAST_EVENT_ID = 37 where SERIAL = Q100;01;2206;0024;01.02;92
+[03.02.2025 15:53:32.302][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:32.303][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:32.303][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:32.304][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:33.335][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:33.336][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:33.336][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:33.336][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:34.367][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:34.368][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:34.369][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:34.369][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:35.404][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:35.404][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:35.405][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:35.406][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:36.431][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:36.432][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:36.432][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:36.433][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:37.467][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:37.467][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:37.467][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:37.468][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:38.500][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:38.501][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:38.501][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:38.504][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:39.530][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:39.530][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:39.530][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:39.531][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:40.559][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:40.559][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:40.559][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:40.560][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:41.591][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:41.592][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:41.592][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:41.593][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:42.631][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:42.632][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:42.632][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:42.633][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:43.664][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:43.665][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:43.665][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:43.665][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:44.698][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:44.698][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:44.698][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:44.699][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:45.732][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:45.732][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:45.732][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:45.733][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:46.770][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:46.771][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:46.771][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:46.773][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:47.811][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:47.811][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:47.811][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:47.812][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:48.849][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:48.849][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:48.849][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:48.850][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:49.879][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:49.880][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:49.880][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:49.880][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:50.915][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:50.915][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:50.915][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:50.916][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:51.950][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:51.951][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:51.951][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:51.952][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:52.981][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:52.982][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:52.983][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:52.983][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:54.023][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:54.024][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:54.024][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:54.025][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:55.062][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:55.062][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:55.062][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:55.063][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:56.096][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:56.097][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:56.097][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:56.097][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:57.125][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:57.125][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:57.125][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:57.126][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:58.151][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:58.151][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:58.151][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:58.152][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:53:59.184][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:53:59.185][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:59.185][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:53:59.185][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:00.217][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:00.218][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:00.218][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:00.218][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:01.252][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:01.252][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:01.253][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:01.253][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:02.285][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:02.286][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:02.286][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:02.287][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:03.319][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:03.320][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:03.320][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:03.322][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:04.351][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:04.352][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:04.353][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:04.354][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:05.390][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:05.391][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:05.391][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:05.393][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:06.434][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:06.436][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:06.436][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:06.437][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:07.462][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:07.463][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:07.463][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:07.463][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:08.492][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:08.493][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:08.493][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:08.493][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:09.534][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:09.534][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:09.535][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:09.535][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:10.565][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:10.565][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:10.565][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:10.566][success][COM5]:Плата не прошла проверку.
+[03.02.2025 15:54:11.600][success][COM5]:THRD.BCPRxChar. Ответ: "7"
+
+[03.02.2025 15:54:11.600][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:11.600][success][COM5]:THRD.ReciveAnswer. Ответ: 7
+[03.02.2025 15:54:11.601][success][COM5]:Плата не прошла проверку.

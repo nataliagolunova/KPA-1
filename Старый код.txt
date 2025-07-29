@@ -1,0 +1,258 @@
+procedure TfrmMainForm.SaveBDModem(NumKpa : Integer);
+var
+//i : Integer;
+//id_imei, id_sim : Integer;
+//Date_add, Date_link : TDateTime;
+//imei_board : variant;
+//sim_board_id, sim_board_id_unq : array [0..MAX_SIM_COUNT-1] of integer;
+//sim_board_str : array [0..MAX_SIM_COUNT-1] of string;
+Comment : Boolean;
+BoardID : Cardinal;
+MetBrdTypeID : integer;
+BrdTypeID : Word;
+
+begin
+//'861292059039157;;897010201290304683ff;897010201290304675ff'
+  TRY
+    BDSaveMeterBoards(NumKpa, false);         //ищем или создаем в базе плату
+    if VarToStr(meter_board[NumKpa].IMEI) <> '' then begin                //проверяем imei в таблице MeterBoards, если imei отсутствует, то добавляем, если imei есть, то запоминаем его и выводим в комментрариях
+      imei_board := SearchBDImei(BoardID); //поиск imei в базе по MeterBoardsID
+      //проверка Imei на уникальность
+      if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+      id_imei := GetQueryAloneValue(datamod.IBDatabase1,'select ID from METERBOARDS where IMEI = :pImai', [meter_board[NumKpa].IMEI], 0);
+      FrmLog.SendToLog('[SQL] ' + IntToStr(id_imei) + ': select ID from METERBOARDS where IMEI = ' + vartostr(meter_board[NumKpa].IMEI), logMain);
+      if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+      if (id_imei <> 0) and (id_imei <> BoardID) then
+        AddCommentKPA(NumKpa, 'В БД уже имеется плата с IMEI = ' + vartostr(meter_board[NumKpa].IMEI) + '. Повтор не возможен.', clRed)
+//        ShowMessage('В БД уже имеется плата с IMEI = ' + vartostr(meter_board[NumKpa].IMEI) + '. Повтор не возможен.')
+      else begin
+        if imei_board = null then begin
+          if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+          BoardID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'update METERBOARDS set IMEI = :pImei where ID = :pID returning ID', 'ID',
+                                                                    [meter_board[NumKpa].IMEI, BoardID], 0);
+          FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] update METERBOARDS set IMEI = ' + VarToStr(meter_board[NumKpa].IMEI) +
+                                                            ' where ID = ' + IntToStr(BoardID), logMain);
+          if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+          imei_board := SearchBDImei(BoardID); //поиск imei в базе
+        end;
+      end;
+
+      if meter_board[NumKpa].IMEI <> imei_board then Comment := True;
+    end;
+
+    for i := 0 to MAX_SIM_COUNT-1 do begin    //проверяем ICCID в таблице SIM, если ICCID отсутствует, то добавляем
+      if Trim(meter_board[NumKpa].CCID_SIM[i]) <> '' then begin
+        if Length(meter_board[NumKpa].CCID_SIM[i]) > 20 then begin
+          AddCommentKPA(NumKpa, 'SIM_' + IntToStr(i+1) + ' превышает допустимую длимну ответа.', clRed);
+          Continue;
+        end;
+
+        id_sim := SearchBDSimID(meter_board[NumKpa].CCID_SIM[i]);
+        if id_sim <> 0 then begin
+          Date_add := SearchBDSimDate(id_sim, true);   //поиск Date_add в базе
+          Date_link := SearchBDSimDate(id_sim, false);   //поиск Date_link в базе
+          if Date_link = null then begin
+            //обновляем строку
+            if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+            id_sim := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'update SIM set DATE_LINKING = :pDateLink where ICCID = :pSim returning ID', 'ID',
+                                                                      [Now, meter_board[NumKpa].CCID_SIM[i]], 0);
+            FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] update SIM set DATE_LINKING = ' + DateTimeToStr(Now) +
+                                                              ' where ICCID = ' + meter_board[NumKpa].CCID_SIM[i], logMain);
+            if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+          end;
+        end
+        else begin
+          //создаем новую строку
+          if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+          id_sim := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'Insert INTO SIM(ICCID, DATE_ADD, DATE_LINKING) ' +
+                                                                    'values (:pSim, :pDateAdd, :pDateLink) returning ID', 'ID',
+                                                                    [meter_board[NumKpa].CCID_SIM[i], Now, Now], 0);
+          FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' + IntToStr(id_sim)+ ': Insert INTO SIM(ICCID, DATE_ADD, DATE_LINKING) ' +
+                                                        'values :pSim = ' + meter_board[NumKpa].CCID_SIM[i] +
+                                                        ', :pDateAdd = ' + DateTimeToStr(Now) +
+                                                        ', :pDateLink = ' + DateTimeToStr(Now), logMain);
+          if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+        end;      //сравниваем ICCID в таблице MeterBoards и в таблице SIM, если ICCID отсутствует в таблице MeterBoards, то добавляем, если ICCID другой, то выводим в комментрариях
+
+
+
+        sim_board_id[i] := SearchBDSimNumMeterBoards(i+1, BoardID); //поиск ICCID в таблице MeterBoards по  MeterBoardsID
+        //проверка SIM на уникальность
+        if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+        sim_board_id_unq[i] := GetQueryAloneValue(datamod.IBDatabase1,'select ID from METERBOARDS where SIMID_' + IntToStr(i+1) + ' = :pSimID', [id_sim], 0);
+        FrmLog.SendToLog('[SQL] ' + IntToStr(sim_board_id_unq[i]) + ': select ID from METERBOARDS where SIMID_' + IntToStr(i+1) + ' = ' + IntToStr(id_sim), logMain);
+        if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+        if (sim_board_id_unq[i] <> 0) and (sim_board_id_unq[i] <> BoardID) then
+          AddCommentKPA(NumKpa, 'В БД уже имеется плата с SIM = ' + meter_board[NumKpa].CCID_SIM[i] + '. Повтор не возможен.', clRed)
+//          ShowMessage('В БД уже имеется плата с SIM = ' + meter_board[NumKpa].CCID_SIM[i] + '. Повтор не возможен.')
+        else if sim_board_id[i] = 0 then begin
+          if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+          MeterBoardsID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'update METERBOARDS set SIMID_' + IntToStr(i+1) + ' = :pSim where ID = :pID returning ID', 'ID',
+                                                                    [id_sim, BoardID], 0);
+          FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] update METERBOARDS set SIMID_' + IntToStr(i+1) + ' = ' + IntToStr(id_sim) +
+                                    ' where ID = ' + IntToStr(BoardID), logMain);
+          if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+          sim_board_id[i] := SearchBDSimNumMeterBoards(i+1, BoardID); //поиск ICCID в таблице MeterBoards
+        end;
+
+        if id_sim <> sim_board_id[i] then Comment := True;
+      end;
+    end;
+    if Comment = true then begin
+      for i := 0 to 2 do begin
+        if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+          sim_board_str[i] := GetQueryAloneValue(datamod.IBDatabase1,'select ICCID from SIM where id = :pID', [sim_board_id[i]], 0);
+          FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' + sim_board_str[i] + ': select ICCID from SIM where id = ' + IntToStr(sim_board_id[i]), logMain);
+        if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+      end;
+      AddLogRichMain( '[' + KPAFrame[NumKpa].cbbPort.text + '][' +
+                         KPAFrame[NumKpa].edtSerialChip.Text + ']: IMEI или SIM не соответствуют в базе.' + CR_LF +
+                        'Данные в базе: IMEI = ' + varToStr(imei_board) + ', SIMID_1 = ' + sim_board_str[0] +
+                        ', SIMID_2 = ' + sim_board_str[1] + ', SIMID_3 = ' + sim_board_str[2] + CR_LF +
+                        'Данные в плате: IMEI = ' + varToStr(meter_board[NumKpa].IMEI) + ', SIMID_1 = ' + meter_board[NumKpa].CCID_SIM[0] +
+                        ', SIMID_2 = ' + meter_board[NumKpa].CCID_SIM[1] + ', SIMID_3 = ' + meter_board[NumKpa].CCID_SIM[2], clRed);
+
+      FrmLog.SendToLog('[' + KPAFrame[NumKpa].cbbPort.text + '][' + KPAFrame[NumKpa].edtSerialChip.Text +
+                        ']: IMEI или SIM не соответствуют в базе.' + CR_LF +
+                        'Данные в базе: IMEI = ' + varToStr(imei_board) + ', SIMID_1 = ' + sim_board_str[0] +
+                        ', SIMID_2 = ' + sim_board_str[1] + ', SIMID_3 = ' + sim_board_str[2] + CR_LF +
+                        'Данные в плате: IMEI = ' + varToStr(meter_board[NumKpa].IMEI) + ', SIMID_1 = ' + meter_board[NumKpa].CCID_SIM[0] +
+                        ', SIMID_2 = ' + meter_board[NumKpa].CCID_SIM[1] + ', SIMID_3 = ' + meter_board[NumKpa].CCID_SIM[2], logError);
+      meter_board[NumKpa].ResultFlag := False;
+      meter_board[NumKpa].Comment := 'IMEI или SIM не соответствуют в базе';
+    end;
+  except
+    on e:exception do begin
+      AddLogRichMain('Ошибка ' + e.Message, clRed);
+      meter_board[NumKpa].ResultFlag := False;
+//      showmessage(e.Message);
+      FrmLog.SendToLog('frmMainForm. SaveBDModem. Ошибка ' + e.Message, logError);
+    end;
+  end;
+
+end;
+
+procedure TfrmMainForm.SaveBD(NumKpa : Integer);
+var BDCommentID : cardinal;
+//MeterBoardsID : Integer;
+//StatusFlag : Integer;
+//BoardEventsID : Integer;
+
+  BoardID : Cardinal;
+  MetBrdTypeID : integer;
+  BrdTypeID : Word;
+begin
+  try
+    info_board.Prefix := 100;
+    info_board.SerialBoard := 'Q100;01;2206;0024;01.02;92';
+    info_board.VersionBoard := '02.06';
+
+      {Ищем и/или пишем новые данные в таблицу METERBOARDS}
+      MeterBoardsID := BDSaveMeterBoards(NumKpa, false);
+
+
+      {–	Пишем данные в таблицу BOARDEVENTS.        }
+    if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+    meter_board[NumKpa].LastEventID := GetQueryAloneValue(datamod.IBDatabase1,'select METEREVENTTYPEID from CVE1SETTINGS where ID = :pID', [cfg_params.id_preset], 0);
+    FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' + IntToStr(meter_board[NumKpa].LastEventID)+ ': select METEREVENTTYPEID from CVE1SETTINGS where ID = ' + IntToStr(cfg_params.id_preset), logMain);
+
+//      if meters_info[NumKpa].ResultFlag then StatusFlag := 0 else StatusFlag := 1;
+
+    BoardEventsID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'Insert INTO BOARDEVENTS(BRDEVENTTYPEID, BRDEVENTDATE, BOARDID, USERID, STANDID, EVENTSTATE, PRESETID, COMMENTID) ' +
+                                                                  'values (:pLastEvent, :pDTNow, :pMeterBoardsID, :pUserID, :pStandID, :pStatusFlag, :pPresetID, :pCommentID) returning ID', 'ID',
+                                                                  [meter_board[NumKpa].LastEventID, Now, BoardID, cfg_params.user_ID, cfg_params.stand_id, meters_info[ NumKpa ].BoardState, cfg_params.id_preset, BDCommentID], 0);
+    FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' + IntToStr(BoardEventsID)+ ': Insert INTO BOARDEVENTS(BRDEVENTTYPEID, BRDEVENTDATE, BOARDID, USERID, STANDID, EVENTSTATE, PRESETID, COMMENTID) ' +
+                                                      'values :pLastEvent = ' + IntToStr(meter_board[NumKpa].LastEventID) + ', :pDTNow = ' + DateToStr(Now) + ', :pMeterBoardsID = ' + IntToStr(BoardID) +
+                                                       ', :pUserID = ' + IntToStr(cfg_params.user_ID) + ', :pStandID = ' + IntToStr(cfg_params.stand_id) + ', :pStatusFlag = ' {+ IntToStr(meters_info[ NumKpa ].BoardState)} +
+                                                       ', :pPresetID = ' + IntToStr(cfg_params.id_preset) + ', :pCommentID = ' + IntToStr(BDCommentID), logMain);
+    if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+
+    {–	Получаем получившийся ID из таблицы BOARDEVENTS и . Меняем значение полей STATE_CURR_ID и LAST_EVENT_ID в таблице METERBOARDS своей платы. }
+    if BoardEventsID <> 0 then BoardID := BDSaveMeterBoards(NumKpa, true)
+    else ShowMessage('Ошибка сохранения в проверки в БД!');
+    meter_board[NumKpa].FlagSaveBD := True;
+    if meters_info[ NumKpa ].BoardState = sFit then KPAFrame[NumKpa].edtSerialChip.Text := EmptyStr;
+
+
+  except
+    on e:exception do begin
+      AddLogRichMain('Ошибка ' + e.Message, clRed);
+//      showmessage(e.Message);
+      FrmLog.SendToLog('frmMainForm. SaveBD. Ошибка ' + e.Message, logError);
+    end;
+  end;
+end;
+
+function TfrmMainForm.BDSaveMeterBoards(NumKpa : Integer; write : boolean): integer;
+var MeterBoardsID : Integer;
+MeterBoardDictID : Integer;
+StatusFlag : Integer;
+BoardTypeID : Integer;
+begin
+  try
+    if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+    MeterBoardsID := GetQueryAloneValue(datamod.IBDatabase1,'select meterboards.id from meterboards, meterboarddict ' +
+                                                            'where meterboarddict.id = meterboards.boardtypeid ' +
+                                                            'and meterboards.serial = :pSer and meterboarddict."VERSION" = :pVer',
+                                                            [ meters_info[NumKpa].BoardSerial, meters_info[NumKpa].HWVerStr], 0);
+    FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' +
+                                                          IntToStr(MeterBoardsID)+ ': select meterboards.id from meterboards, meterboarddict ' +
+                                                            'where meterboarddict.id = meterboards.boardtypeid ' +
+                                                            'and meterboards.serial = ' +  meters_info[NumKpa].BoardSerial +
+                                                            ' and meterboarddict."VERSION" = ' +meters_info[NumKpa].HWVerStr, logMain);
+    if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+    if MeterBoardsID = 0 then begin
+      if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+      MeterBoardDictID := GetQueryAloneValue(datamod.IBDatabase1,'select meterboarddict.ID from meterboarddict, Boardtypedict ' +
+                                                            'where Boardtypedict.id = meterboarddict.boardtypenameid ' +
+                                                            'and Boardtypedict.prefix3 = :pPrx and meterboarddict."VERSION" = :pVer'
+                                                            , [meter_board[NumKpa].Prefix, meters_info[NumKpa].HWVerStr], 0);
+      FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' +
+                                                          IntToStr(MeterBoardDictID)+ ': select meterboarddict.ID from meterboarddict, Boardtypedict ' +
+                                                            'where Boardtypedict.id = meterboarddict.boardtypenameid ' +
+                                                            'and Boardtypedict.prefix3 = ' + IntToStr(meter_board[NumKpa].Prefix) +
+                                                            ' and meterboarddict."VERSION" = ' + meters_info[NumKpa].HWVerStr, logMain);
+      if MeterBoardDictID = 0 then begin
+        BoardTypeID := GetQueryAloneValue(datamod.IBDatabase1,'select ID from BOARDTYPEDICT where  Boardtypedict.prefix3 = :pPrx', [meter_board[NumKpa].Prefix], 0);
+        FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' +
+                            IntToStr(MeterBoardDictID)+ ': select ID from BOARDTYPEDICT where  Boardtypedict.prefix3 = ' + IntToStr(meter_board[NumKpa].Prefix), logMain);
+
+
+        MeterBoardDictID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'Insert INTO METERBOARDDICT(BOARDTYPENAMEID, VERSION) ' +
+                                                                      'values (:pType, :pVer) returning ID', 'ID',
+                                                                      [BoardTypeID, meters_info[NumKpa].HWVerStr], 0);
+        FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' +
+                                            IntToStr(MeterBoardsID)+ ': Insert INTO METERBOARDDICT(BOARDTYPENAMEID, VERSION) ' +
+                                            'values :pType = ' + IntToStr(BoardTypeID) + ' :pVer = ' + meters_info[NumKpa].HWVerStr, logMain);
+      end;
+
+      MeterBoardsID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'Insert INTO METERBOARDS(BOARDTYPEID, SERIAL) ' +
+                                                                      'values (:pMeterBoardDictID, :pSerial) returning ID', 'ID',
+                                                                      [MeterBoardDictID, meters_info[NumKpa].BoardSerial], 0);
+      FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] ' +
+                                                IntToStr(MeterBoardsID)+ ': Insert INTO METERBOARDS(BOARDTYPEID, SERIAL) ' +
+                                                 'values :pMeterBoardDictID = ' + IntToStr(MeterBoardDictID) +
+                                                 ' :pSerial = ' + meters_info[NumKpa].BoardSerial, logMain);
+
+      if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+    end;
+    if write then begin
+//      if meter_board[NumKpa].ResultFlag then StatusFlag := 0 else StatusFlag := 1;
+      if dataMod.IBTransaction1.Active = false then dataMod.IBTransaction1.StartTransaction;
+      MeterBoardsID := GetQueryAloneValueInsertSQL(datamod.IBDatabase1,'update METERBOARDS set STATE_CURR_ID = :pStatus, ' +
+                                                                      'LAST_EVENT_ID = :pLastEvent where ID = :pID  returning ID', 'ID',
+                                                                      [StatusFlag, meter_board[NumKpa].LastEventID, MeterBoardsID], 0);
+      FrmLog.SendToLog('[SQL][' +  KPAFrame[NumKpa].edtSerialChip.Text + '] update METERBOARDS set STATE_CURR_ID = ' + IntToStr(StatusFlag) +
+                                                         ' LAST_EVENT_ID = ' + IntToStr(meter_board[NumKpa].LastEventID) +
+                                                         ' where ID = ' + IntToStr(MeterBoardsID), logMain);
+      if dataMod.IBTransaction1.Active then dataMod.IBTransaction1.Commit;
+    end;
+    Result := MeterBoardsID;
+  except
+    on e:exception do begin
+      AddLogRichMain('Ошибка ' + e.Message, clRed);
+//      showmessage(e.Message);
+      FrmLog.SendToLog('frmMainForm. BDSaveMeterBoards. Ошибка ' + e.Message, logError);
+    end;
+  end;
+end;
